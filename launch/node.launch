@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+        <node pkg="rospy_node" type="pub.py" name="pub" output="screen"></node>
+	<node pkg="rospy_node" type="sub.py" name="sub" output="screen"></node>
+	<node pkg="rospy_node" type="mainsub.py" name="mainsub" output="screen"></node>
+
+
+</launch>
+
+
+
+
+

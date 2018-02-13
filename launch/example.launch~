@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+        <node pkg="example" type="pub.py" name="pub" output="screen"></node>
+	<node pkg="example" type="sub.py" name="sub" output="screen"></node>
+	<node pkg="example" type="mainsub.py" name="mainsub" output="screen"></node>
+
+
+</launch>
+
+
+
+
+
